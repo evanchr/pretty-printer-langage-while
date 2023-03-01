@@ -1,0 +1,4 @@
+[debug] [tp1_sbt-test] Classpath dependencies List()
+[debug] [tp1_sbt-test] Dependencies from configurations List(tp1_sbt)
+[debug] Bloop wrote the configuration of project 'tp1_sbt-test' to 'D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.bloop\tp1_sbt-test.json'
+[success] Generated .bloop\tp1_sbt-test.json

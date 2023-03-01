@@ -1,0 +1,446 @@
+2023.02.17 10:45:39 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\lsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.17 10:45:50 INFO  logging to file D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\metals.log
+2023.02.17 10:45:50 INFO  Started: Metals version 0.11.10 in workspace 'D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/evanc/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.17 10:45:54 INFO  time: initialize in 4.52s
+2023.02.17 10:46:00 WARN  Build server is not auto-connectable.
+2023.02.17 10:46:00 WARN  no build target for: D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\src\main\scala\prettyprinter\prettyprinter.scala
+2023.02.17 10:46:07 INFO  no build target found for D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.17 10:46:09 INFO  running 'C:\Program Files\Java\jdk-19\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.8.0 -jar C:\Users\evanc\AppData\Local\Temp\metals5472729125474198463\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.02.17 10:46:13 INFO  time: code lens generation in 12s
+2023.02.17 10:46:13 INFO  time: code lens generation in 3.39s
+2023.02.17 10:46:20 INFO  [info] Updated file D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\project\build.properties: set sbt.version to 1.8.0
+2023.02.17 10:46:20 INFO  [info] welcome to sbt 1.8.0 (Oracle Corporation Java 19.0.2)
+2023.02.17 10:46:26 INFO  [info] loading settings for project tp1_sbt-build-build from metals.sbt ...
+2023.02.17 10:46:27 INFO  [info] loading project definition from D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\project\project
+2023.02.17 10:46:33 INFO  [info] loading settings for project tp1_sbt-build from metals.sbt ...
+2023.02.17 10:46:33 INFO  [info] loading project definition from D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\project
+2023.02.17 10:46:46 INFO  [success] Generated .bloop\tp1_sbt-build.json
+2023.02.17 10:46:46 INFO  [success] Total time: 12 s, completed 17 févr. 2023, 10:46:46
+2023.02.17 10:46:49 INFO  [info] loading settings for project tp1_sbt from build.sbt ...
+2023.02.17 10:46:49 INFO  [info] set current project to PrettyPrinter (in build file:/D:/Documents/Cours_evan/Fac/L2/CAL/TP1_sbt/)
+2023.02.17 10:46:52 INFO  [success] Generated .bloop\tp1_sbt-test.json
+2023.02.17 10:46:52 INFO  [success] Generated .bloop\tp1_sbt.json
+2023.02.17 10:46:52 INFO  [success] Total time: 2 s, completed 17 févr. 2023, 10:46:52
+2023.02.17 10:46:53 INFO  time: ran 'sbt bloopInstall' in 43s
+2023.02.17 10:46:53 INFO  Attempting to connect to the build server...
+2023.02.17 10:46:53 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.17 10:47:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.17 10:47:17 INFO  Attempting to connect to the build server...
+2023.02.17 10:47:17 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.17 10:47:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\project\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.17 10:47:17 INFO  time: Connected to build server in 25s
+2023.02.17 10:47:17 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.17 10:47:18 INFO  time: Imported build in 0.43s
+2023.02.17 10:47:28 INFO  time: indexed workspace in 9.34s
+2023.02.17 10:47:29 INFO  compiling tp1_sbt (3 scala sources)
+2023.02.17 10:47:43 INFO  compiling tp1_sbt-test (4 scala sources)
+2023.02.17 10:47:43 INFO  time: compiled tp1_sbt in 14s
+2023.02.17 10:47:46 INFO  time: compiled tp1_sbt-test in 3.16s
+2023.02.17 10:49:25 INFO  shutting down Metals
+2023.02.17 10:49:25 INFO  Shut down connection with build server.
+2023.02.17 10:49:25 INFO  Shut down connection with build server.
+2023.02.17 10:54:36 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\lsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.17 10:54:45 INFO  logging to file D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\metals.log
+2023.02.17 10:54:45 INFO  Started: Metals version 0.11.10 in workspace 'D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/evanc/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.17 10:54:51 INFO  time: initialize in 5.23s
+2023.02.17 10:54:55 INFO  Attempting to connect to the build server...
+2023.02.17 10:54:55 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.17 10:54:56 INFO  skipping build import with status 'Installed'
+2023.02.17 10:54:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.17 10:54:55 INFO  Attempting to connect to the build server...
+2023.02.17 10:54:55 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.17 10:54:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\project\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.17 10:54:55 INFO  time: Connected to build server in 0.72s
+2023.02.17 10:54:55 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.17 10:55:01 INFO  no build target found for D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.17 10:55:01 INFO  time: code lens generation in 5.73s
+2023.02.17 10:55:01 INFO  time: Imported build in 0.27s
+2023.02.17 10:55:05 INFO  no build target found for D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.17 10:55:09 INFO  time: indexed workspace in 8.08s
+2023.02.17 11:01:40 INFO  compiling tp1_sbt (1 scala source)
+2023.02.17 11:01:40 INFO  time: compiled tp1_sbt in 0.48s
+2023.02.17 11:02:20 INFO  file:///D:/Documents/Cours_evan/Fac/L2/CAL/TP1_sbt/src/main/scala/prettyprinter/prettyprinter.scala:34:5: stale bloop error: '=>' expected but '}' found.
+    } 
+    ^
+2023.02.17 11:02:20 INFO  file:///D:/Documents/Cours_evan/Fac/L2/CAL/TP1_sbt/src/main/scala/prettyprinter/prettyprinter.scala:34:5: stale bloop error: '=>' expected but '}' found.
+    } 
+    ^
+2023.02.17 11:02:58 INFO  compiling tp1_sbt (1 scala source)
+2023.02.17 11:02:58 INFO  time: compiled tp1_sbt in 0.42s
+2023.02.17 11:03:43 INFO  shutting down Metals
+2023.02.17 11:03:43 INFO  Shut down connection with build server.
+2023.02.17 11:03:43 INFO  Shut down connection with build server.
+2023.02.17 13:59:05 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\lsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.17 13:59:08 INFO  logging to file D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\metals.log
+2023.02.17 13:59:08 INFO  Started: Metals version 0.11.10 in workspace 'D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/evanc/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.17 13:59:11 INFO  time: initialize in 2.42s
+2023.02.17 13:59:13 INFO  Attempting to connect to the build server...
+2023.02.17 13:59:13 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.17 13:59:13 INFO  skipping build import with status 'Installed'
+2023.02.17 13:59:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.17 13:59:13 INFO  Attempting to connect to the build server...
+2023.02.17 13:59:13 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.17 13:59:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\project\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.17 13:59:13 INFO  time: Connected to build server in 0.6s
+2023.02.17 13:59:13 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.17 13:59:14 INFO  time: Imported build in 0.44s
+2023.02.17 13:59:18 INFO  no build target found for D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.17 13:59:21 INFO  time: code lens generation in 7.13s
+2023.02.17 13:59:26 INFO  time: indexed workspace in 11s
+2023.02.17 13:59:26 INFO  compiling tp1_sbt (1 scala source)
+2023.02.17 13:59:28 INFO  time: compiled tp1_sbt in 2.5s
+2023.02.17 13:59:28 INFO  compiling tp1_sbt (1 scala source)
+2023.02.17 13:59:28 INFO  time: compiled tp1_sbt in 0.33s
+2023.02.17 14:00:12 INFO  compiling tp1_sbt (1 scala source)
+2023.02.17 14:00:17 INFO  time: compiled tp1_sbt in 5.47s
+févr. 17, 2023 2:00:17 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.02.17 14:01:40 INFO  Configured debugger context in 8 seconds
+2023.02.17 14:01:40 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-server.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.02.17 14:01:40 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-client.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.02.17 14:01:40 INFO  Starting debug proxy for [pretty_printer.TestsCommands();pretty_printer.TestsStrings();pretty_printer.TestsExpressions();pretty_printer.TestsProgram()]
+2023.02.17 14:01:40 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57608 .
+2023.02.17 14:01:40 INFO  Attaching to debuggee VM succeeded.
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_For_1[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.23 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_For_1([35mtest_commands.scala[0m:[33m111[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_For_2[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.002 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_For_2([35mtest_commands.scala[0m:[33m124[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_For_3[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.001 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_For_3([35mtest_commands.scala[0m:[33m135[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_For_4[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.001 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_For_4([35mtest_commands.scala[0m:[33m148[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_While_1[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.004 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_While_1([35mtest_commands.scala[0m:[33m63[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_While_2[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.016 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_While_2([35mtest_commands.scala[0m:[33m76[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_While_3[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.002 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_While_3([35mtest_commands.scala[0m:[33m87[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_While_4[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.004 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_While_4([35mtest_commands.scala[0m:[33m100[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_Nop[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.002 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_Nop([35mtest_commands.scala[0m:[33m14[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_Set[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.003 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_Set([35mtest_commands.scala[0m:[33m21[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_If_1[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.002 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_If_1([35mtest_commands.scala[0m:[33m163[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_If_2[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.0 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommand(prettyprinter.scala:165)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommand_If_2([35mtest_commands.scala[0m:[33m178[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommands_0[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.001 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommands(prettyprinter.scala:180)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommands_0([35mtest_commands.scala[0m:[33m28[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommands_1[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.001 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommands(prettyprinter.scala:180)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommands_1([35mtest_commands.scala[0m:[33m35[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommands_2[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.001 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommands(prettyprinter.scala:180)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommands_2([35mtest_commands.scala[0m:[33m42[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommands_4[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.011 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintCommands(prettyprinter.scala:180)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsCommands.Test_prettyPrintCommands_4([35mtest_commands.scala[0m:[33m52[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrint_1[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.001 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrint(prettyprinter.scala:223)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrint_1([35mtest_program.scala[0m:[33m149[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrint_2[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.002 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrint(prettyprinter.scala:223)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrint_2([35mtest_program.scala[0m:[33m176[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintOut_0[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.002 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintOut(prettyprinter.scala:203)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrintOut_0([35mtest_program.scala[0m:[33m38[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintOut_1[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.001 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintOut(prettyprinter.scala:203)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrintOut_1([35mtest_program.scala[0m:[33m50[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintOut_2[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.002 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintOut(prettyprinter.scala:203)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrintOut_2([35mtest_program.scala[0m:[33m57[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintIn_0[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.001 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintIn(prettyprinter.scala:193)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrintIn_0([35mtest_program.scala[0m:[33m13[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintIn_1[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.003 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintIn(prettyprinter.scala:193)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrintIn_1([35mtest_program.scala[0m:[33m25[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintIn_2[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.0 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintIn(prettyprinter.scala:193)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrintIn_2([35mtest_program.scala[0m:[33m32[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintProgram_1[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.036 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintProgram(prettyprinter.scala:213)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrintProgram_1([35mtest_program.scala[0m:[33m85[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:41 ERROR Test pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintProgram_2[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.003 sec
+2023.02.17 14:01:41 ERROR     at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+2023.02.17 14:01:41 ERROR     at pretty_printer.Prettyprinter$.prettyPrintProgram(prettyprinter.scala:213)
+2023.02.17 14:01:41 ERROR     at pretty_printer.TestsProgram.Test_prettyPrintProgram_2([35mtest_program.scala[0m:[33m122[0m)
+2023.02.17 14:01:41 ERROR     at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.17 14:01:41 ERROR     at java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.17 14:01:41 ERROR     ...
+2023.02.17 14:01:42 INFO  Closing debug server tcp://0.0.0.0:57604
+2023.02.17 14:01:45 INFO  Canceling debug proxy for [pretty_printer.TestsCommands();pretty_printer.TestsStrings();pretty_printer.TestsExpressions();pretty_printer.TestsProgram()]
+2023.02.17 14:02:05 INFO  Configured debugger context in 7 seconds
+2023.02.17 14:02:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-server.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.02.17 14:02:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-client.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.02.17 14:02:06 INFO  Starting debug proxy for [pretty_printer.TestsStrings()]
+2023.02.17 14:02:05 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57626 .
+2023.02.17 14:02:05 INFO  Attaching to debuggee VM succeeded.
+2023.02.17 14:02:07 INFO  Canceling debug proxy for [pretty_printer.TestsStrings()]
+2023.02.17 14:02:07 INFO  Closing debug server tcp://0.0.0.0:57621
+2023.02.17 14:02:19 INFO  Configured debugger context in 6 seconds
+2023.02.17 14:02:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-server.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.02.17 14:02:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-client.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.02.17 14:02:20 INFO  Starting debug proxy for [pretty_printer.TestsExpressions()]
+2023.02.17 14:02:19 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57640 .
+2023.02.17 14:02:19 INFO  Attaching to debuggee VM succeeded.
+2023.02.17 14:02:20 INFO  Canceling debug proxy for [pretty_printer.TestsExpressions()]
+2023.02.17 14:02:20 INFO  Closing debug server tcp://0.0.0.0:57635
+2023.02.17 14:02:31 INFO  shutting down Metals
+2023.02.17 14:02:31 INFO  Shut down connection with build server.
+2023.02.17 14:02:31 INFO  Shut down connection with build server.
+2023.02.18 15:00:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\lsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.18 15:00:55 INFO  logging to file D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\metals.log
+2023.02.18 15:00:55 INFO  Started: Metals version 0.11.10 in workspace 'D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/evanc/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.18 15:00:57 INFO  time: initialize in 2.05s
+2023.02.18 15:00:59 INFO  Attempting to connect to the build server...
+2023.02.18 15:00:59 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.18 15:00:59 INFO  skipping build import with status 'Installed'
+2023.02.18 15:00:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.18 15:00:59 INFO  Attempting to connect to the build server...
+2023.02.18 15:00:59 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.18 15:00:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\project\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.18 15:01:00 INFO  time: Connected to build server in 1.11s
+2023.02.18 15:01:00 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.18 15:01:03 INFO  no build target found for D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.18 15:01:03 INFO  time: code lens generation in 4.3s
+2023.02.18 15:01:04 INFO  time: Imported build in 0.19s
+2023.02.18 15:01:10 INFO  time: indexed workspace in 6.66s
+2023.02.18 15:02:49 INFO  Configured debugger context in 5 seconds
+2023.02.18 15:02:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-server.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.02.18 15:02:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-client.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.02.18 15:02:49 INFO  Starting debug proxy for [pretty_printer.TestsStrings()]
+2023.02.18 15:02:49 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56708 .
+2023.02.18 15:02:49 INFO  Attaching to debuggee VM succeeded.
+2023.02.18 15:02:50 INFO  Closing debug server tcp://0.0.0.0:56703
+2023.02.18 15:02:49 INFO  Canceling debug proxy for [pretty_printer.TestsStrings()]
+2023.02.18 15:02:54 INFO  Configured debugger context in 2 seconds
+2023.02.18 15:02:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-server.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.02.18 15:02:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\dap-client.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.02.18 15:02:54 INFO  Starting debug proxy for [pretty_printer.TestsExpressions()]
+2023.02.18 15:02:54 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56721 .
+2023.02.18 15:02:54 INFO  Attaching to debuggee VM succeeded.
+2023.02.18 15:02:54 INFO  Closing debug server tcp://0.0.0.0:56716
+2023.02.18 15:02:54 INFO  Canceling debug proxy for [pretty_printer.TestsExpressions()]
+2023.02.18 15:13:35 INFO  compiling tp1_sbt (1 scala source)
+2023.02.18 15:13:38 INFO  time: compiled tp1_sbt in 3.38s
+févr. 18, 2023 3:13:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+févr. 18, 2023 3:13:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+févr. 18, 2023 3:13:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Illegal char <:> at index 3: jar:file:///C:/Users/evanc/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9-sources.jar!/scala/collection/immutable/List.scala
+java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:///C:/Users/evanc/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9-sources.jar!/scala/collection/immutable/List.scala
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.nio.file.Path.of(Path.java:147)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at scala.meta.io.AbsolutePath$.apply(AbsolutePath.scala:60)
+	at scala.meta.internal.metals.MetalsSymbolSearch.$anonfun$definitionSourceToplevels$2(MetalsSymbolSearch.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsSymbolSearch.definitionSourceToplevels(MetalsSymbolSearch.scala:60)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$MatchKeywordCompletion.contribute(MatchCaseCompletions.scala:195)
+	at scala.meta.internal.pc.CompletionProvider.filterInteresting(CompletionProvider.scala:344)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:477)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+févr. 18, 2023 3:14:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 171
+févr. 18, 2023 3:14:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 172
+2023.02.18 15:16:23 INFO  compiling tp1_sbt (1 scala source)
+2023.02.18 15:16:25 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.02.18 15:16:25 INFO  time: compiled tp1_sbt in 2.23s
+2023.02.18 15:16:39 INFO  compiling tp1_sbt (1 scala source)
+2023.02.18 15:16:39 INFO  time: compiled tp1_sbt in 0.39s
+2023.02.18 15:17:03 INFO  shutting down Metals
+2023.02.18 15:17:03 INFO  Shut down connection with build server.
+2023.02.18 15:17:03 INFO  Shut down connection with build server.
+2023.02.19 17:40:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\lsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.19 17:41:01 INFO  logging to file D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\metals.log
+2023.02.19 17:41:01 INFO  Started: Metals version 0.11.10 in workspace 'D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/evanc/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.19 17:41:03 INFO  time: initialize in 1.96s
+2023.02.19 17:41:06 INFO  Attempting to connect to the build server...
+2023.02.19 17:41:06 INFO  skipping build import with status 'Installed'
+2023.02.19 17:41:06 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.19 17:41:13 INFO  no build target found for D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.19 17:41:18 INFO  time: code lens generation in 12s
+2023.02.19 17:41:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.19 17:41:20 INFO  Attempting to connect to the build server...
+2023.02.19 17:41:20 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.02.19 17:41:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\project\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.19 17:41:20 INFO  time: Connected to build server in 14s
+2023.02.19 17:41:20 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.19 17:41:21 INFO  time: Imported build in 0.29s
+2023.02.19 17:41:28 INFO  time: indexed workspace in 7.61s
+2023.02.19 17:41:30 INFO  compiling tp1_sbt (1 scala source)
+2023.02.19 17:41:34 INFO  time: compiled tp1_sbt in 4.36s
+2023.02.19 17:41:34 INFO  compiling tp1_sbt (1 scala source)
+2023.02.19 17:41:35 INFO  time: compiled tp1_sbt in 0.69s
+2023.02.19 17:41:46 INFO  compiling tp1_sbt (1 scala source)
+2023.02.19 17:41:46 INFO  time: compiled tp1_sbt in 0.13s
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.02.19 17:42:13 INFO  compiling tp1_sbt (1 scala source)
+2023.02.19 17:42:13 INFO  time: compiled tp1_sbt in 0.15s
+2023.02.19 17:43:31 INFO  compiling tp1_sbt (1 scala source)
+2023.02.19 17:43:31 INFO  time: compiled tp1_sbt in 0.4s
+2023.02.19 17:43:34 INFO  shutting down Metals
+2023.02.19 17:43:34 INFO  Shut down connection with build server.
+2023.02.19 17:43:34 INFO  Shut down connection with build server.
+2023.02.23 11:17:26 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\lsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.23 11:17:28 INFO  logging to file D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\metals.log
+2023.02.23 11:17:28 INFO  Started: Metals version 0.11.10 in workspace 'D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt' for client Visual Studio Code 1.75.1.
