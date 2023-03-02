@@ -444,3 +444,213 @@ Exception in thread "pool-4-thread-1" java.lang.InterruptedException
 2023.02.23 11:17:26 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\lsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\lsp.trace.json
 2023.02.23 11:17:28 INFO  logging to file D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\.metals\metals.log
 2023.02.23 11:17:28 INFO  Started: Metals version 0.11.10 in workspace 'D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt' for client Visual Studio Code 1.75.1.
+2023.03.02 10:35:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\evanc\git\pretty-printer-langage-while\.metals\lsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.03.02 10:36:02 INFO  logging to file C:\Users\evanc\git\pretty-printer-langage-while\.metals\metals.log
+2023.03.02 10:36:02 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\evanc\git\pretty-printer-langage-while' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/evanc/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.02 10:36:05 INFO  time: initialize in 3.13s
+2023.03.02 10:36:09 INFO  Attempting to connect to the build server...
+2023.03.02 10:36:09 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.03.02 10:36:17 INFO  no build target found for C:\Users\evanc\git\pretty-printer-langage-while\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.1
+mars 02, 2023 10:36:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+mars 02, 2023 10:36:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2023.03.02 10:36:19 INFO  running 'C:\Program Files\Java\jdk-19\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\evanc\AppData\Local\Temp\metals17952534463557918472\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.02 10:36:26 INFO  time: code lens generation in 6.57s
+2023.03.02 10:36:26 INFO  time: code lens generation in 13s
+2023.03.02 10:36:26 INFO  time: code lens generation in 16s
+2023.03.02 10:36:26 INFO  time: code lens generation in 7.32s
+2023.03.02 10:36:26 INFO  time: code lens generation in 16s
+2023.03.02 10:36:28 INFO  [info] welcome to sbt 1.8.0 (Oracle Corporation Java 19.0.2)
+2023.03.02 10:36:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\evanc\git\pretty-printer-langage-while\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.02 10:36:34 INFO  [info] loading settings for project pretty-printer-langage-while-build-build from metals.sbt ...
+mars 02, 2023 10:36:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+2023.03.02 10:36:33 INFO  Attempting to connect to the build server...
+2023.03.02 10:36:33 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.03.02 10:36:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\evanc\git\pretty-printer-langage-while\project\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.02 10:36:34 INFO  time: Connected to build server in 24s
+2023.03.02 10:36:34 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.02 10:36:35 INFO  time: Imported build in 0.75s
+2023.03.02 10:36:35 WARN  no build target for: C:\Users\evanc\git\pretty-printer-langage-while\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.02 10:36:36 INFO  [info] loading project definition from C:\Users\evanc\git\pretty-printer-langage-while\project\project
+2023.03.02 10:36:40 INFO  no build target found for C:\Users\evanc\git\pretty-printer-langage-while\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 2.13.9
+2023.03.02 10:36:41 INFO  [info] loading settings for project pretty-printer-langage-while-build from metals.sbt ...
+2023.03.02 10:36:41 INFO  [info] loading project definition from C:\Users\evanc\git\pretty-printer-langage-while\project
+2023.03.02 10:36:49 INFO  [success] Generated .bloop\pretty-printer-langage-while-build.json
+2023.03.02 10:36:49 INFO  [warn] Removed stale C:\Users\evanc\git\pretty-printer-langage-while\project\.bloop\tp1_sbt-build.json
+2023.03.02 10:36:49 INFO  [success] Total time: 7 s, completed 2 mars 2023, 10:36:49
+2023.03.02 10:36:50 INFO  time: code lens generation in 9.57s
+2023.03.02 10:36:51 INFO  time: indexed workspace in 15s
+2023.03.02 10:36:50 WARN  no build target for: C:\Users\evanc\git\pretty-printer-langage-while\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.02 10:36:51 ERROR No project associated with Uri(file:/D:/Documents/Cours_evan/Fac/L2/CAL/TP1_sbt/project/?id=tp1_sbt-build)
+2023.03.02 10:36:51 ERROR No project associated with Uri(file:/D:/Documents/Cours_evan/Fac/L2/CAL/TP1_sbt/project/?id=tp1_sbt-build)
+2023.03.02 10:36:51 WARN  no build target for: C:\Users\evanc\git\pretty-printer-langage-while\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.02 10:36:55 INFO  [info] loading settings for project pretty-printer-langage-while from build.sbt ...
+2023.03.02 10:36:55 INFO  [info] set current project to PrettyPrinter (in build file:/C:/Users/evanc/git/pretty-printer-langage-while/)
+2023.03.02 10:36:55 INFO  [success] Generated .bloop\pretty-printer-langage-while-test.json
+2023.03.02 10:36:55 INFO  [success] Generated .bloop\pretty-printer-langage-while.json
+2023.03.02 10:36:55 INFO  [warn] Removed stale C:\Users\evanc\git\pretty-printer-langage-while\.bloop\tp1_sbt-test.json
+2023.03.02 10:36:55 INFO  [warn] Removed stale C:\Users\evanc\git\pretty-printer-langage-while\.bloop\tp1_sbt.json
+2023.03.02 10:36:55 INFO  [success] Total time: 0 s, completed 2 mars 2023, 10:36:56
+2023.03.02 10:36:56 INFO  time: ran 'sbt bloopInstall' in 36s
+2023.03.02 10:36:56 INFO  Disconnecting from Bloop session...
+2023.03.02 10:36:56 INFO  Shut down connection with build server.
+2023.03.02 10:36:56 INFO  Shut down connection with build server.
+2023.03.02 10:36:56 INFO  Attempting to connect to the build server...
+2023.03.02 10:36:56 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.03.02 10:36:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\evanc\git\pretty-printer-langage-while\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.02 10:36:56 INFO  Attempting to connect to the build server...
+2023.03.02 10:36:56 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.03.02 10:36:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\evanc\git\pretty-printer-langage-while\project\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.02 10:36:56 INFO  time: Connected to build server in 0.22s
+2023.03.02 10:36:56 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.02 10:36:56 INFO  time: Imported build in 0.2s
+2023.03.02 10:37:03 INFO  time: indexed workspace in 7.11s
+2023.03.02 10:37:04 INFO  compiling pretty-printer-langage-while (3 scala sources)
+mars 02, 2023 10:37:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+error: C:\Users\evanc\git\pretty-printer-langage-while\.metals\.tmp\.metals\.tmp\Main-4446939540004731730.scala is not a file
+2023.03.02 10:37:16 INFO  shutting down Metals
+2023.03.02 10:37:16 INFO  Shut down connection with build server.
+2023.03.02 10:37:16 INFO  Shut down connection with build server.
+mars 02, 2023 10:37:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:344)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:344)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:281)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:121)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:222)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:536)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:124)
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:102)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:79)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.03.02 10:37:16 INFO  Cancelling compilation on Bloop server
+2023.03.02 10:37:35 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\evanc\git\pretty-printer-langage-while\.metals\lsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.03.02 10:37:37 INFO  logging to file C:\Users\evanc\git\pretty-printer-langage-while\.metals\metals.log
+2023.03.02 10:37:37 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\evanc\git\pretty-printer-langage-while' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/evanc/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.02 10:37:40 INFO  time: initialize in 3.02s
+2023.03.02 10:37:43 INFO  Attempting to connect to the build server...
+2023.03.02 10:37:43 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.03.02 10:37:43 INFO  skipping build import with status 'Installed'
+2023.03.02 10:37:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\evanc\git\pretty-printer-langage-while\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.02 10:37:43 INFO  Attempting to connect to the build server...
+2023.03.02 10:37:43 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.03.02 10:37:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\evanc\git\pretty-printer-langage-while\project\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.02 10:37:43 INFO  time: Connected to build server in 0.48s
+2023.03.02 10:37:43 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.02 10:37:46 INFO  running 'C:\Program Files\Java\jdk-19\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\evanc\AppData\Local\Temp\metals13501136296637780988\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.02 10:37:47 INFO  no build target found for C:\Users\evanc\git\pretty-printer-langage-while\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.03.02 10:37:47 INFO  time: code lens generation in 4.37s
+2023.03.02 10:37:48 INFO  time: Imported build in 0.23s
+2023.03.02 10:37:51 INFO  [info] welcome to sbt 1.8.0 (Oracle Corporation Java 19.0.2)
+2023.03.02 10:37:52 INFO  [info] loading settings for project pretty-printer-langage-while-build-build from metals.sbt ...
+2023.03.02 10:37:53 INFO  [info] loading project definition from C:\Users\evanc\git\pretty-printer-langage-while\project\project
+2023.03.02 10:37:55 INFO  [info] loading settings for project pretty-printer-langage-while-build from metals.sbt ...
+2023.03.02 10:37:55 INFO  [info] loading project definition from C:\Users\evanc\git\pretty-printer-langage-while\project
+2023.03.02 10:37:58 INFO  time: indexed workspace in 10s
+2023.03.02 10:37:59 INFO  compiling pretty-printer-langage-while (3 scala sources)
+2023.03.02 10:38:02 INFO  [success] Generated .bloop\pretty-printer-langage-while-build.json
+2023.03.02 10:38:02 INFO  [success] Total time: 7 s, completed 2 mars 2023, 10:38:02
+2023.03.02 10:38:03 INFO  [info] loading settings for project pretty-printer-langage-while from build.sbt ...
+2023.03.02 10:38:03 INFO  [info] set current project to PrettyPrinter (in build file:/C:/Users/evanc/git/pretty-printer-langage-while/)
+2023.03.02 10:38:05 INFO  [success] Generated .bloop\pretty-printer-langage-while-test.json
+2023.03.02 10:38:05 INFO  [success] Generated .bloop\pretty-printer-langage-while.json
+2023.03.02 10:38:05 INFO  [success] Total time: 1 s, completed 2 mars 2023, 10:38:05
+2023.03.02 10:38:06 INFO  time: ran 'sbt bloopInstall' in 19s
+2023.03.02 10:38:06 INFO  Disconnecting from Bloop session...
+2023.03.02 10:38:06 INFO  Shut down connection with build server.
+2023.03.02 10:38:06 INFO  Shut down connection with build server.
+mars 02, 2023 10:38:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:344)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:344)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:281)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:121)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:222)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:536)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:124)
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:102)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:79)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.03.02 10:38:06 INFO  Attempting to connect to the build server...
+2023.03.02 10:38:06 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.03.02 10:38:06 INFO  Cancelling compilation on Bloop server
+2023.03.02 10:38:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\evanc\git\pretty-printer-langage-while\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.02 10:38:06 INFO  Attempting to connect to the build server...
+2023.03.02 10:38:06 INFO  Bloop uses C:\Program Files\Java\jdk-19 defined at C:\Users\evanc\.bloop\bloop.json
+2023.03.02 10:38:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\evanc\git\pretty-printer-langage-while\project\.metals\bsp.trace.json or C:\Users\evanc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.02 10:38:06 INFO  time: Connected to build server in 0.36s
+2023.03.02 10:38:06 INFO  Connected to Build server: Bloop v1.5.6
+mars 02, 2023 10:38:06 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.03.02 10:38:07 INFO  time: Imported build in 0.23s
+2023.03.02 10:38:11 INFO  time: indexed workspace in 4.77s
+2023.03.02 10:38:11 INFO  compiling pretty-printer-langage-while (3 scala sources)
+error: C:\Users\evanc\git\pretty-printer-langage-while\.metals\.tmp\.metals\.tmp\Main668613283980904725.scala is not a file
+2023.03.02 10:38:19 INFO  compiling pretty-printer-langage-while-test (4 scala sources)
+2023.03.02 10:38:19 INFO  time: compiled pretty-printer-langage-while in 7.47s
+2023.03.02 10:38:20 INFO  time: compiled pretty-printer-langage-while-test in 1.8s

@@ -162,12 +162,15 @@ object Prettyprinter {
     */
   // TODO TP2
   def prettyPrintCommand(command: Command, is: IndentSpec): List[String] = {
-    command match{
-      case Nil => Nop
-      case Set(variable, expression) => 
+    command match {
+      case Nop => "nop" :: Nil
+      case Set(Var(name), expr) => name+" := "+prettyPrintExpr(expr) :: Nil
+      case While(cond, body) => ???
+      case For(count, body) => ???
+      case If(cond, then_com, else_com) => ???
     }
   }
-
+  
   /** @param commands
     *   : une liste non vide d'AST décrivant une liste non vide de commandes du
     *   langage WHILE
@@ -177,11 +180,11 @@ object Prettyprinter {
     *   une liste de chaînes représentant la syntaxe concrète de la liste de
     *   commandes
     */
-  def prettyPrintCommands(commands: List[Command], is: IndentSpec): List[String] = {
-    commands match{
-      case Nil => prettyPrintCommand(Nop,Nil)
-      case c :: Nil => prettyPrintCommand(c,is)
-      case a :: b => prettyPrintCommand(a,is) + " ;" :: prettyPrintCommands(b,is)
+  def prettyPrintCommands(commands: List[Command],is: IndentSpec): List[String] = {
+    commands match {
+      case Nil       => throw ExceptionListeVide
+      case hd :: Nil => prettyPrintCommand(hd, is)
+      case hd :: tl  => prettyPrintCommand(hd, is).map{ case (s:String) => s}.mkString + " ;" :: prettyPrintCommands(tl, is)
     }
   }
 

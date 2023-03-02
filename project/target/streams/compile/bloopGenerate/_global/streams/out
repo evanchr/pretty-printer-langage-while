@@ -1,4 +1,4 @@
-[debug] [tp1_sbt-build] Classpath dependencies List()
-[debug] [tp1_sbt-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'tp1_sbt-build' to 'D:\Documents\Cours_evan\Fac\L2\CAL\TP1_sbt\project\.bloop\tp1_sbt-build.json'
-[success] Generated .bloop\tp1_sbt-build.json
+[debug] [pretty-printer-langage-while-build] Classpath dependencies List()
+[debug] [pretty-printer-langage-while-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'pretty-printer-langage-while-build' to 'C:\Users\evanc\git\pretty-printer-langage-while\project\.bloop\pretty-printer-langage-while-build.json'
+[success] Generated .bloop\pretty-printer-langage-while-build.json
