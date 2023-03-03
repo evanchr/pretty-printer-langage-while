@@ -141,7 +141,6 @@ object Prettyprinter {
     *   une liste de chaînes obtenue par la concaténation de suff après chaque
     *   élément de strings sauf le dernier
     */
-
   def appendStringAfterAllButLast(suff: String, strings: List[String]): List[String] = {
     strings match {
       case Nil => throw ExceptionListeVide
@@ -180,7 +179,7 @@ object Prettyprinter {
         list :+ "fi"
     }
   }
-  
+
   /** @param commands
     *   : une liste non vide d'AST décrivant une liste non vide de commandes du
     *   langage WHILE
@@ -194,7 +193,7 @@ object Prettyprinter {
     commands match {
       case Nil       => throw ExceptionListeVide
       case hd :: Nil => prettyPrintCommand(hd, is)
-      case hd :: tl  => prettyPrintCommand(hd, is).map{ case (s:String) => s}.mkString + " ;" :: prettyPrintCommands(tl, is)
+      case hd :: tl  => appendStringAfterLast(" ;", prettyPrintCommand(hd, is)) ++ prettyPrintCommands(tl, is)
     }
   }
 
@@ -257,7 +256,7 @@ object Prettyprinter {
     *   une chaîne représentant la syntaxe concrète du programme
     */
   def prettyPrint(program: Program, is: IndentSpec): String = {
-    prettyPrintProgram(program, is).map{ case (s:String) => s}.mkString("\n")
+    appendStringAfterAllButLast("\n",prettyPrintProgram(program, is)).map{ case (s:String) => s}.mkString
   }
 
   val program: Program =
@@ -277,8 +276,28 @@ object Prettyprinter {
     );
   val is: IndentSpec = List(("PROGR", 2), ("WHILE", 5));
 
+  val program2: Program =
+      Progr(
+        List(Var("X")),
+        List(
+          Set(Var("Y"), Nl),
+          While(
+            VarExp("X"),
+            List(
+              Set(Var("Y"), Cons(Hd(VarExp("X")), VarExp("Y"))),
+              While(
+                VarExp("X"),
+                List(
+                  Set(Var("Y"), Cons(Hd(VarExp("X")), VarExp("Y"))),
+                  Set(Var("X"), Tl(VarExp("X"))))),
+              Set(Var("X"), Tl(VarExp("X")))))),
+        List(Var("Y")));
+
   def main(args: Array[String]): Unit = {
-    println(prettyPrint(program, is));
+    // println(prettyPrint(program, is));
+    val list = prettyPrintProgram(program2, is)
+    println(prettyPrint(program2, is))
+    // println(list)
   }
 
   /** UTILISATION D'UN ANALYSEUR SYNTAXIQUE POUR LE LANGAGE WHILE
@@ -293,8 +312,7 @@ object Prettyprinter {
     * @return
     *   un arbre de syntaxe abstraite pour cette expression
     */
-  def readWhileExpression(s: String): Expression =
-    WhileParser.analyserexpression(s)
+  def readWhileExpression(s: String): Expression = WhileParser.analyserexpression(s)
 
   /** @param s
     *   : une chaine de caractère représentant la syntaxe concrète d'une
