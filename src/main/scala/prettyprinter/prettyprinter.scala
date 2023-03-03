@@ -160,14 +160,24 @@ object Prettyprinter {
     * @return
     *   une liste de chaînes représentant la syntaxe concrète de la commande
     */
-  // TODO TP2
   def prettyPrintCommand(command: Command, is: IndentSpec): List[String] = {
     command match {
       case Nop => "nop" :: Nil
       case Set(Var(name), expr) => name+" := "+prettyPrintExpr(expr) :: Nil
-      case While(cond, body) => ???
-      case For(count, body) => ???
-      case If(cond, then_com, else_com) => ???
+      case While(cond, body) => 
+        val indent = makeIndent(indentSearch("WHILE", is))
+        val list = "while "+prettyPrintExpr(cond)+" do" :: appendStringBeforeAll(indent, prettyPrintCommands(body, is))
+        list :+ "od"
+      case For(count, body) => 
+        val indent = makeIndent(indentSearch("FOR", is))
+        val list = "for "+prettyPrintExpr(count)+" do" :: appendStringBeforeAll(indent, prettyPrintCommands(body, is))
+        list :+ "od"
+      case If(cond, then_com, else_com) => 
+        val indent = makeIndent(indentSearch("IF", is))
+        var list = "if "+prettyPrintExpr(cond)+" then" :: appendStringBeforeAll(indent, prettyPrintCommands(then_com, is))
+        list = list :+ "else"
+        list = list ++ appendStringBeforeAll(indent, prettyPrintCommands(else_com, is))
+        list :+ "fi"
     }
   }
   
@@ -198,8 +208,13 @@ object Prettyprinter {
     *   une liste de chaînes représentant la syntaxe concrète des paramètres
     *   d'entrée du programme
     */
-  // TODO TP2
-  def prettyPrintIn(vars: List[Variable]): String = ???
+  def prettyPrintIn(vars: List[Variable]): String = {
+    vars match {
+      case Nil => throw ExceptionListeVide
+      case Var(name) :: Nil => name
+      case Var(name) :: tl  => name+", "+prettyPrintIn(tl)
+    }
+  }
 
   /** @param vars
     *   : une liste non vide décrivant les paramètres de sortie d'un programme
@@ -208,8 +223,13 @@ object Prettyprinter {
     *   une liste de chaînes représentant la syntaxe concrète des paramètres de
     *   sortie du programme
     */
-  // TODO TP2
-  def prettyPrintOut(vars: List[Variable]): String = ???
+  def prettyPrintOut(vars: List[Variable]): String = {
+    vars match {
+      case Nil => throw ExceptionListeVide
+      case Var(name) :: Nil => name
+      case Var(name) :: tl  => name+", "+prettyPrintOut(tl)
+    }
+  }
 
   /** @param program
     *   : un AST décrivant un programme du langage WHILE
@@ -218,8 +238,16 @@ object Prettyprinter {
     * @return
     *   une liste de chaînes représentant la syntaxe concrète du programme
     */
-  // TODO TP2
-  def prettyPrintProgram(program: Program, is: IndentSpec): List[String] = ???
+  def prettyPrintProgram(program: Program, is: IndentSpec): List[String] = {
+    program match {
+      case Progr(in, body, out) => 
+        val list1 = "read "+prettyPrintIn(in) :: "%" :: Nil
+        val indent = makeIndent(indentSearch("PROGR", is))
+        val list2 = appendStringBeforeAll(indent, prettyPrintCommands(body, is))
+        val list3 = "%" :: "write "+prettyPrintOut(out) :: Nil
+        list1++list2++list3
+    }
+  }
 
   /** @param program
     *   : un AST décrivant un programme du langage WHILE
@@ -228,8 +256,9 @@ object Prettyprinter {
     * @return
     *   une chaîne représentant la syntaxe concrète du programme
     */
-  // TODO TP2
-  def prettyPrint(program: Program, is: IndentSpec): String = ???
+  def prettyPrint(program: Program, is: IndentSpec): String = {
+    prettyPrintProgram(program, is).map{ case (s:String) => s}.mkString("\n")
+  }
 
   val program: Program =
     Progr(
