@@ -3,6 +3,7 @@
 .vscode
 .bsp
 .json
+.log
 .metals
 project/metals.sbt
 # sbt

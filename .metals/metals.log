@@ -709,3 +709,6 @@ INFO: Unsupported notification method: $/setTrace
 2023.03.03 10:25:25 INFO  time: Imported build in 0.33s
 2023.03.03 10:25:44 INFO  time: indexed workspace in 18s
 2023.03.03 10:25:44 INFO  compiling pretty-printer-langage-while (3 scala sources)
+2023.03.03 10:26:03 INFO  compiling pretty-printer-langage-while-test (4 scala sources)
+2023.03.03 10:26:03 INFO  time: compiled pretty-printer-langage-while in 18s
+2023.03.03 10:26:07 INFO  time: compiled pretty-printer-langage-while-test in 4.15s
